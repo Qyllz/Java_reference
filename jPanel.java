@@ -42,8 +42,8 @@ public class jPanel {
 		frame.add(purplePanel);
 		frame.add(khakiPanel);
 		
-		ImageIcon image = new ImageIcon("she.png");
-		frame.setIconImage(image.getImage());
+		/*ImageIcon image = new ImageIcon("she.png");
+		frame.setIconImage(image.getImage()); */
 		
 		
 		
