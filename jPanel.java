@@ -11,7 +11,7 @@ public class jPanel {
 		// for her 
 		
 		JLabel label = new JLabel();
-		label.setText("Bri's fave colorsszzz");
+		label.setText("her fave colorsszzz");
 		
 		
 		JPanel pinkPanel = new JPanel();
