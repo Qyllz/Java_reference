@@ -33,7 +33,7 @@ public class Student {
 		this.course = course;
 	}
 	@Override
-	// toSting
+	// toString
 	public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
