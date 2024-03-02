@@ -6,16 +6,16 @@ public class TestShape {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        
+        // this part if you want it to run on ide
         System.out.print("Enter the number of inputs:");
         int numberOfInputs = in.nextInt();
         int[] inputs = new int[numberOfInputs];
-        
+        // Input values
         System.out.print("Enter the values:");
         for (int i = 0; i < numberOfInputs; i++) {
             inputs[i] = in.nextInt();
         }
-
+        // switch case statements
         switch (numberOfInputs) {
             case 1:
                 Circle circle = new Circle(inputs[0]);
